@@ -20,9 +20,11 @@ Provide your holdings list and this skill fetches live prices for every position
 
 ## Install
 
-```bash
-npx skills add https://github.com/finskills/portfolio-manager --skill portfolio-manager
-```
+Add this skill via [ClawHub](https://clawhub.ai/finskills/finskills-portfolio-manager):
+
+1. Visit **[https://clawhub.ai/finskills/finskills-portfolio-manager](https://clawhub.ai/finskills/finskills-portfolio-manager)**
+2. Click **Download zip** and follow the setup instructions
+3. Set your API key: `FINSKILLS_API_KEY=your_key_here`
 
 ## Quick Start
 
