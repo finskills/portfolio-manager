@@ -1,3 +1,16 @@
+---
+name: Portfolio Manager
+version: 1.0.0
+description: "Monitor and rebalance a multi-asset portfolio using real-time quotes, sector allocation, and risk metrics from the Finskills API."
+author: finskills
+homepage: https://github.com/finskills/portfolio-manager
+credentials:
+  - name: FINSKILLS_API_KEY
+    description: "Finskills API key — register for free at https://finskills.net (Pro plan required for batch quotes and market data)"
+    required: true
+    link: https://finskills.net
+---
+
 # Portfolio Manager
 
 Monitor, analyze, and optimize a multi-asset US equity portfolio using live batch
@@ -9,7 +22,7 @@ rebalancing recommendations aligned with your target allocation.
 
 ## Setup
 
-**API Key required** (Finskills Pro plan for batch quotes and market data).  
+**API Key required** — [Register at https://finskills.net](https://finskills.net) to get your free key.  
 Header: `X-API-Key: <your_api_key>`
 > **Get your API key**: Register at **https://finskills.net** — free tier available, Pro plan unlocks real-time quotes, history, and financials.
 

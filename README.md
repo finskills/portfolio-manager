@@ -21,7 +21,7 @@ Provide your holdings list and this skill fetches live prices for every position
 ## Install
 
 ```bash
-npx skills add https://github.com/your-org/finskills-skills --skill portfolio-manager
+npx skills add https://github.com/finskills/portfolio-manager --skill portfolio-manager
 ```
 
 ## Quick Start
@@ -51,7 +51,7 @@ Claude: [Fetches live quotes, calculates P&L, sectors, risk metrics, rebalancing
 
 ## Requirements
 
-- **Finskills API Key** ([register here](https://finskills.net)): [Register at finskills.net](https://finskills.net) (free tier available) — Pro plan for batch quotes and market data
+- **Finskills API Key**: [Register at finskills.net](https://finskills.net) (free tier available) — Pro plan for batch quotes and market data
 - **Claude** with skill support
 
 ## License
