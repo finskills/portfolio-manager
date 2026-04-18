@@ -1,14 +1,15 @@
 ---
 name: Portfolio Manager
-version: 1.0.1
+version: 1.0.2
 description: "Monitor and rebalance a multi-asset portfolio using real-time quotes, sector allocation, and risk metrics from the Finskills API."
 author: finskills
-homepage: https://github.com/finskills/portfolio-manager
-credentials:
-  - name: FINSKILLS_API_KEY
-    description: "Finskills API key — register for free at https://finskills.net (Pro plan required for batch quotes and market data)"
-    required: true
-    link: https://finskills.net
+metadata:
+  openclaw:
+    requires:
+      env:
+        - FINSKILLS_API_KEY
+    primaryEnv: FINSKILLS_API_KEY
+  homepage: https://github.com/finskills/portfolio-manager
 ---
 
 # Portfolio Manager
