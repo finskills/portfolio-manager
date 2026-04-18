@@ -51,7 +51,7 @@ Claude: [Fetches live quotes, calculates P&L, sectors, risk metrics, rebalancing
 
 ## Requirements
 
-- **Finskills API Key**: [Get one free](https://finskills.net/register) — Pro plan for batch quotes and market data
+- **Finskills API Key** ([register here](https://finskills.net)): [Register at finskills.net](https://finskills.net) (free tier available) — Pro plan for batch quotes and market data
 - **Claude** with skill support
 
 ## License
