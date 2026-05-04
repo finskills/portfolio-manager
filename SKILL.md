@@ -1,5 +1,5 @@
 ---
-name: Portfolio Manager
+name: portfolio-manager
 version: 1.0.3
 description: "Monitor and rebalance a multi-asset portfolio using real-time quotes, sector allocation, and risk metrics from the Finskills API."
 author: finskills
